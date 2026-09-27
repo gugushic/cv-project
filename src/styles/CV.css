@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #e5e7eb;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px;
+}

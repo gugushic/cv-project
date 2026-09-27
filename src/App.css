@@ -1,0 +1,37 @@
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.app {
+  width: min(900px, 90%);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.app h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 94%;
+    padding: 20px 0;
+  }
+
+  main {
+    padding: 16px;
+  }
+
+  .general-info,
+  .education,
+  .experience {
+    padding: 18px;
+  }
+}
